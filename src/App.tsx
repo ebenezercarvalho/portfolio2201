@@ -39,7 +39,7 @@ function App() {
             {/* Desktop Navigation */}
             <div className="hidden md:block">
               <div className="ml-10 flex items-center space-x-4">
-                <NavLink href="#about">About</NavLink>
+                <NavLink href="#about">Sobre</NavLink>
                 <NavLink href="#portfolio">Portfolio</NavLink>
                 <NavLink href="#experience">Experience</NavLink>
                 <NavLink href="#contact">Contact</NavLink>
@@ -68,7 +68,7 @@ function App() {
         {isMenuOpen && (
           <div className="md:hidden">
             <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
-              <MobileNavLink href="#about">About</MobileNavLink>
+              <MobileNavLink href="#about">Sobre</MobileNavLink>
               <MobileNavLink href="#portfolio">Portfolio</MobileNavLink>
               <MobileNavLink href="#experience">Experience</MobileNavLink>
               <MobileNavLink href="#contact">Contact</MobileNavLink>
@@ -96,7 +96,7 @@ function App() {
               className="w-32 h-32 rounded-full mx-auto border-4 border-[#F2C94C]"
             />
           </div>
-          <h1 className="text-4xl md:text-6xl font-bold mb-4">John Doe</h1>
+          <h1 className="text-4xl md:text-6xl font-bold mb-4">Ebenézer Carvalho</h1>
           <p className="text-xl md:text-2xl mb-8 h-8">{typedText}</p>
           <ChevronDown className="w-8 h-8 mx-auto animate-bounce" />
         </div>
@@ -117,7 +117,7 @@ function App() {
               </p>
               <div className="space-y-4">
                 <SkillBar skill="Environmental Analysis" percentage={90} />
-                <SkillBar skill="GEE Programming" percentage={85} />
+                <SkillBar skill="GEE Programming" percentage={45} />
                 <SkillBar skill="Remote Sensing" percentage={80} />
                 <SkillBar skill="Data Visualization" percentage={75} />
               </div>
@@ -137,7 +137,7 @@ function App() {
       <section id="contact" className="py-20 bg-white dark:bg-gray-900">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-bold text-center mb-12 text-[#1A5F7A] dark:text-[#F2C94C]">
-            Get in Touch
+            Entre em contato
           </h2>
           <div className="flex justify-center space-x-6">
             <SocialLink href="https://linkedin.com" icon={<Linkedin />} />
