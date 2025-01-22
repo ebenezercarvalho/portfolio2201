@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+.dark {
+  color-scheme: dark;
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
